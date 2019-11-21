@@ -2,7 +2,6 @@ require('angular/angular.min');
 require('angular-mocks');
 require('./stubNamespaces.ts')
 require('./createModule')
-require('./PushGACodeDeclaration.js')
 require('./compli.ts');
 
 describe('test the controller', function(){

@@ -4,7 +4,6 @@ module ComplicatedModule
 
 
     "use strict";
-    function PushGACode(param: object): void{}
 
     export class ComplicatedController {
         public showCloseButtonForm: boolean = false;    // show / hide the X header button
@@ -49,7 +48,6 @@ module ComplicatedModule
 
  
 
-            PushGACode({ 'event': 'PZPopupCustomerApprovals' });
 
  
 
